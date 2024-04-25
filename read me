@@ -1,0 +1,22 @@
+This Python script is a simple password manager application with a graphical user interface (GUI) built using the Tkinter library. Here's a description of its functionality:
+
+1. **Password Generation**: The script can generate random passwords of varying lengths consisting of letters (both uppercase and lowercase), numbers, and symbols.
+
+2. **Saving Passwords**: Users can input details such as the website, email or username, and password into the corresponding entry fields. When the "Add" button is clicked, the details are saved to a file named "data.txt". Before saving, it prompts the user to confirm the details.
+
+3. **Graphical User Interface (GUI)**:
+   - The GUI includes entry fields for the website, email/username, and password.
+   - There are buttons for generating passwords and saving the entered details.
+   - The window title is set to "Password Generator".
+   - A logo image (assumed to be named "logo.png") is displayed at the top of the window.
+
+4. **Dependency**: The script relies on the following Python modules:
+   - `tkinter` for GUI.
+   - `messagebox` from `tkinter` for displaying messages and confirmation dialogs.
+   - `random.choice`, `random.randint`, and `random.shuffle` for generating random passwords.
+   - `pyperclip` for copying the generated password to the clipboard.
+   - `string` for accessing string constants like letters, digits, and punctuation symbols.
+
+5. **Data Storage**: The passwords are saved in a simple text file named "data.txt" with each entry formatted as "website | email | password".
+
+Overall, this script provides a basic password management solution with a straightforward user interface for generating and storing passwords.
